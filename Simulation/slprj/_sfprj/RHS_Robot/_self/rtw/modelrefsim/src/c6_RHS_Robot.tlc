@@ -1,0 +1,62 @@
+%implements "chartSource" "C"
+%function ChartConfig(block, system) void
+  %createrecord chartConfiguration { ...
+          executeAtInitialization  0 ...
+  }
+  %return chartConfiguration
+%endfunction
+%function ChartDataMap(block, system) void
+  %createrecord ChartDataElements {\
+    NumChartData   6 \
+    ChartDataDefaults {\
+      RecordType   "ChartData"\
+      Dimensions   []\
+      IsTestPoint  0\
+    }\
+    ChartData {\
+      Name         "ringCount"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "RHS_Robot:17:1341-1350"\
+      Dimensions   [1,4]\
+    }\
+    ChartData {\
+      Name         "ringEdge"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "RHS_Robot:17:1351-1359"\
+      Dimensions   [1,4]\
+    }\
+    ChartData {\
+      Name         "head"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "RHS_Robot:17:1360-1364"\
+    }\
+    ChartData {\
+      Name         "fill"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "RHS_Robot:17:1365-1369"\
+    }\
+    ChartData {\
+      Name         "lastCtlUs"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "RHS_Robot:17:1370-1379"\
+    }\
+    ChartData {\
+      Name         "ctlPrimed"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "RHS_Robot:17:1380-1389"\
+    }\
+  }
+  %return ChartDataElements
+%endfunction

@@ -1,0 +1,8 @@
+-I"C:/Users/AdrianStark/OneDrive - Adeptstark/Engineering/4thYear/MechatronicProject488/MotorModelling/SpeedControllerDesign"
+-I"C:/Users/AdrianStark/OneDrive - Adeptstark/Engineering/4thYear/MechatronicProject488/MotorModelling/SpeedControllerDesign/slprj/sim/LHS_Robot"
+-I"C:/Program Files/MATLAB/R2026a/extern/include"
+-I"C:/Program Files/MATLAB/R2026a/simulink/include"
+-I"C:/Program Files/MATLAB/R2026a/rtw/c/src"
+-I"C:/Program Files/MATLAB/R2026a/rtw/c/src/ext_mode/common"
+-I"C:/Program Files/MATLAB/R2026a/rtw/c/ert"
+-I"C:/Users/AdrianStark/OneDrive - Adeptstark/Engineering/4thYear/MechatronicProject488/MotorModelling/SpeedControllerDesign/slprj/sim/_sharedutils"
