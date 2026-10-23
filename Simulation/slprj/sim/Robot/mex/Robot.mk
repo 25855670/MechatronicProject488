@@ -2,7 +2,7 @@
 ## Makefile generated for component 'Robot'. 
 ## 
 ## Makefile     : Robot.mk
-## Generated on : Wed Oct 21 04:44:22 2026
+## Generated on : Fri Oct 23 04:01:51 2026
 ## Final product: $(RELATIVE_PATH_TO_ANCHOR)/Robot_msf.mexw64
 ## Product type : shared library
 ## 
@@ -25,7 +25,7 @@ MAKEFILE                  = Robot.mk
 MATLAB_ROOT               = C:/PROGRA~1/MATLAB/R2026a
 MATLAB_BIN                = C:/PROGRA~1/MATLAB/R2026a/bin
 MATLAB_ARCH_BIN           = $(MATLAB_BIN)/win64
-START_DIR                 = C:/Users/ADRIAN~1/ONEDRI~1/ENGINE~1/4thYear/MECHAT~1/CLAUDE~1/PROJEC~1/SIMULA~1
+START_DIR                 = C:/Users/AdrianStark/AppData/Local/Temp/rb
 SOLVER                    = 
 SOLVER_OBJ                = 
 CLASSIC_INTERFACE         = 0
@@ -221,7 +221,7 @@ PREBUILT_OBJS =
 ## LIBRARIES
 ###########################################################################
 
-MODELREF_LIBS = C:/Users/ADRIAN~1/ONEDRI~1/ENGINE~1/4thYear/MECHAT~1/CLAUDE~1/PROJEC~1/SIMULA~1/slprj/sim/Robot/Robotlib.lib C:/Users/ADRIAN~1/ONEDRI~1/ENGINE~1/4thYear/MECHAT~1/CLAUDE~1/PROJEC~1/SIMULA~1/slprj/sim/LHS_RO~1/LHS_RO~1.LIB C:/Users/ADRIAN~1/ONEDRI~1/ENGINE~1/4thYear/MECHAT~1/CLAUDE~1/PROJEC~1/SIMULA~1/slprj/sim/RHS_RO~1/RHS_RO~1.LIB
+MODELREF_LIBS = C:/Users/AdrianStark/AppData/Local/Temp/rb/slprj/sim/Robot/Robotlib.lib C:/Users/AdrianStark/AppData/Local/Temp/rb/slprj/sim/LHS_Robot/LHS_Robotlib.lib C:/Users/AdrianStark/AppData/Local/Temp/rb/slprj/sim/RHS_Robot/RHS_Robotlib.lib
 
 LIBS = $(START_DIR)/slprj/sim/_sharedutils/rtwshared.lib
 

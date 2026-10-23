@@ -29,7 +29,7 @@ Ts_fast = 2e-5;
 % Camera frame period [s]
 Ts_cam = 1/25;
 % Camera pipeline latency [s]
-CAM_LAT = 0.25;
+CAM_LAT = 0.08;
 
 % Camera position noise, 1-sigma [m]
 sig_xy = 0.002;
